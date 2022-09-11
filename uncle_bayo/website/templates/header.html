@@ -1,0 +1,25 @@
+{% load static %} {% block content %}
+<div class="header_container">
+	<div class="logo_container">
+		<div class="logo_container__content">
+			<img src="{% static 'images/ccl2 1.png' %}" alt="" />
+			<p>Clear Code Labs</p>
+		</div>
+		<i class="fa-solid fa-bars"></i>
+	</div>
+	<div class="item_container hide">
+		<ul>
+			<li><i class="fa-solid fa-xmark"></i></li>
+			<li><a href="{% url 'index'%}">Home</a></li>
+			<li><a href="{% url 'about'%}">About</a></li>
+			<li><a href="{% url 'work'%}">Our Works</a></li>
+			<li><a href="{% url 'index'%}">Meet The Team</a></li>
+			<li class="header_contact">
+				<a href="{% url 'contact'%}"
+					>Contact Us <i class="fa-solid fa-bell"></i
+				></a>
+			</li>
+		</ul>
+	</div>
+</div>
+{% endblock content %}

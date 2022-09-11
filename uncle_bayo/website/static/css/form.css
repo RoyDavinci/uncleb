@@ -1,0 +1,23 @@
+form p input,
+form p label {
+	display: block;
+}
+form p input {
+	border: 1px solid #ccc;
+}
+form p input[type="text"] {
+	padding: 10px;
+	margin: 10px 0px;
+}
+
+form p textarea {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+form input[type="submit"] {
+	padding: 10px;
+	background-color: #4285f4;
+	color: white;
+	border-radius: 5px;
+	margin: 10px;
+}

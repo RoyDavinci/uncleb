@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Roboto";
+}
+
+.work__itemsContainer_page {
+	width: 90%;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+
+.work__pageContainer {
+	/* padding: 10px; */
+}
+
+.pageContainer1 {
+	padding: 60px 0;
+	background-color: #d7eafe;
+	margin-bottom: 30px;
+}
+
+.pageContainer2 {
+	padding: 70px 0;
+	background-color: #f2f2f2;
+}
+
+.worksPage__item {
+	width: 100%;
+}
+
+.worksPage__item .button-container {
+	width: 85%;
+	margin-top: 20px;
+	text-align: right;
+}
+
+.button-container button {
+	background-color: #fbb606;
+	padding: 20px 40px;
+	border-radius: 30px;
+	font-weight: 700;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.work__page__content {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	gap: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.work__page__content img {
+	width: 35%;
+}
+
+.worksPage__contents {
+	width: 60%;
+}
+
+.worksPage__contents .text {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.worksPage__contents .digitalBanking {
+	font-weight: 400;
+	font-size: 27px;
+	margin-top: 7px;
+}
+
+.worksPage__contents h4 {
+	font-weight: 500;
+	font-size: 37px;
+}
+
+.worksPage__spanContainer {
+	/* width: 70%; */
+	margin: 40px 0;
+}
+
+.worksPage__spanContainer span {
+	padding: 10px;
+	background-color: rgba(196, 196, 196, 0.14);
+}
+
+.worksPage__spanContainer .span2 {
+	margin: 0 10px;
+}

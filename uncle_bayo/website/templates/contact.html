@@ -1,0 +1,40 @@
+{% extends "./base.html" %} {% load static %} {% block content %} 
+{% include './header.html' %}
+
+<div class="contact-page__container">
+	<div class="contact-page__avater">
+		<h1>CONTACT US</h1>
+		<img src="{% static 'images/image 10.png' %}" alt="contact avater" />
+	</div>
+	<div class="contact-page__form-container">
+		<form action="{% url 'contact' %}" class="contact-form" method="post">
+			{% csrf_token %}
+			<input
+				type="text"
+				class="firstname-input"
+				name="firstname"
+				placeholder="first name"
+			/>
+			<input
+				type="text"
+				class="lastname-input"
+				name="lastname"
+				placeholder="last name"
+			/>
+			<input
+				type="email"
+				class="email-input"
+				name="email"
+				placeholder="email"
+			/>
+			<textarea
+				class="text-area"
+				placeholder="message..."
+				name="message"
+			></textarea>
+			<button type="submit" class="submit">Submit</button>
+		</form>
+	</div>
+</div>
+
+{% include 'footer.html' %} {% endblock content %}

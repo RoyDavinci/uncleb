@@ -1,0 +1,67 @@
+{% extends "./base.html" %} {% load static %} {% block content %} 
+{% include './header.html' %} {% include 'hero.html' %}
+
+<div class="partnerImage__container">
+	<div class="partnerImages">
+		<img src="{% static 'images/google.png' %}" alt="" />
+		<img src="{% static 'images/slack.png' %}" alt="" />
+		<img src="{% static 'images/Bitmap.png' %}" alt="" />
+		<img src="{% static 'images/dropbox.png' %}" alt="" />
+		<img src="{% static 'images/shopify.png' %}" alt="" />
+	</div>
+</div>
+
+<div class="company_detailsContainer global__margin">
+	<div class="header_div"></div>
+	<div class="header_Detailscontent">
+		<h2>What is Artificial Intelligence</h2>
+		<p>
+			We so opinion friends me message as delight. Whole front do of plate heard
+			oh ought. His defective nor convinced residence own. Connection has put
+			impossible own apartments boisterous. At jointure ladyship an insisted so
+			humanity he. Friendly bachelor entrance to on by.
+		</p>
+	</div>
+	<div class="conpany__possibility">
+		<h2>The possibilities are beyond your imagination</h2>
+		<a href="">Explore The Library</a>
+	</div>
+	<div class="conpany__detailsItems">
+		<div class="conpany__detailsItem">
+			<div class="header_div"></div>
+			<h2>Chatbots</h2>
+			<p>
+				We so opinion friends me message as delight. Whole front do of plate
+				heard oh ought.
+			</p>
+		</div>
+		<div class="conpany__detailsItem">
+			<div class="header_div"></div>
+			<h2>Knowledgebase</h2>
+			<p>
+				At jointure ladyship an insisted so humanity he. Friendly bachelor
+				entrance to on by. As put impossible own apartments b
+			</p>
+		</div>
+		<div class="conpany__detailsItem">
+			<div class="header_div"></div>
+			<h2>Education</h2>
+			<p>
+				At jointure ladyship an insisted so humanity he. Friendly bachelor
+				entrance to on by. As put impossible own apartments b
+			</p>
+		</div>
+	</div>
+</div>
+
+{% include 'works.html' %}
+
+<div class="register global__margin">
+	<div class="top__register">
+		<p>Get in touch with us</p>
+		<h3>Register today & start exploring the endless possiblities.</h3>
+	</div>
+	<button>Contact Us</button>
+</div>
+
+{% include 'image.html' %} {% include 'footer.html' %} {% endblock content %}
